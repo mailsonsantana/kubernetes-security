@@ -168,8 +168,8 @@ EOF
 
 
 Encrypting Secret Data at Rest 
-Realiza a criptografia no ETCD evitando a captura de dados sensiveis no cluster como secrets
 ---
+Realiza a criptografia no ETCD evitando a captura de dados sensiveis no cluster como secrets
 
 https://kubernetes.io/docs/tasks/administer-cluster/encrypt-data/
 
