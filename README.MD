@@ -84,6 +84,8 @@ kubectl apply -f "https://cloud.weave.works/k8s/net?k8s-version=$(kubectl versio
 ```
 
 ***Instalando Kube-bench***
+```
+Ferramenta que verifica e demonstra como ajustar a segurança de algumas features do cluster kubernetes
 https://github.com/aquasecurity/kube-bench
 ```
 docker run --rm -v `pwd`:/host aquasec/kube-bench:latest install
