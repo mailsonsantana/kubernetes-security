@@ -94,6 +94,9 @@ https://github.com/aquasecurity/kube-bench
 docker run --rm -v `pwd`:/host aquasec/kube-bench:latest install
 ```
 ***Instalando Trivy***
+
+Ferramenta que faz analise de vulnerabilidades em imagens
+
 https://github.com/aquasecurity/trivy
 ```
 curl -sfL https://raw.githubusercontent.com/aquasecurity/trivy/main/contrib/install.sh | sh -s -- -b /usr/local/bin v0.21.0
