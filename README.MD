@@ -55,8 +55,7 @@ echo "source <(kubectl completion bash)" >> ~/.bashrc
 
 ***KubeADM utilizando um config file:***
 
-Kubelet TLS:
-Configura o Kubernetes para ser obrigatorio a assinatura de dos certificados do kubelet de todos os nós.
+Kubelet TLS: Configura o Kubernetes para ser obrigatorio a assinatura de dos certificados do kubelet de todos os nós.
 
 
 ```
@@ -97,10 +96,11 @@ curl -sfL https://raw.githubusercontent.com/aquasecurity/trivy/main/contrib/inst
 
 Audit LOG
 ---
+Ativa auditoria no cluster, fazendo rotate dos logs e gravando no servidor.
+
 https://kubernetes.io/docs/tasks/debug-application-cluster/audit/
 
 ***Ativando AuditLog***
-Ativa auditoria no cluster, fazendo rotate dos logs e gravando no servidor.
 
 ***Editando o api server:***
 vim /etc/kubernetes/manifests/kube-apiserver.yaml
