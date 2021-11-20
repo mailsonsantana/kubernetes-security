@@ -1,6 +1,5 @@
-Mutirao DevOps
 ---
-Install Cluster
+Instalando o Cluster
 ---
 
 ***Instalando o Docker***
